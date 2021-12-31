@@ -1,3 +1,38 @@
-img{width: 78px;height: 78px;}
-header{ background-color: aquamarine;}
-li{display: inline-block;}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabeçalho{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: chartreuse
+    
+}
+
+
+h1 a {text-decoration: none;color: rgb(47, 47, 71);
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0 0 15px 20px;
+    align-items: center;
+    }
+
+.navegador{
+display: flex;
+justify-content: space-between;
+flex-grow: 6;
+height: 40px;
+background-color: aquamarine;
+align-items: center;
+}
+
+.navegador a{text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0px 20px 0px 30px;
+    }
