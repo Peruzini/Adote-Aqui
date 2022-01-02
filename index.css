@@ -7,9 +7,8 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: black
+    background-color: black;    
 }
-
 
 h1 a {text-decoration: none;color: yellow;
     font-weight: bold;
@@ -35,19 +34,21 @@ align-items: center;
     text-decoration: none;
     margin: 0px 20px 0px 30px;
     }
-    main{background-color: rgba(255, 255, 0, 0.705);}
+
+main{background-color: rgba(255, 255, 0, 0.705);
+    height: 200px;}
 .imagem {
 display: flex;
 width:200px;height: 200px;
 justify-content: space-between;
 flex-grow: 6;
-margin: 0px 20px 0px 30px;
+margin: 2px 0 0 53px;
 }
 footer{background-color: black;height: 50px;
 align-items: center;
 }
 form input, form textarea{
-    margin: 0 0 10px;
+    margin: 5px 0 10px;
     padding: 10px 25px;
     }
 .h1:hover{background-color: brown;}
